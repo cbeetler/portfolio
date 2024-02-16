@@ -1,0 +1,28 @@
+@media (width >= 1550px) {
+    .navbar {
+        grid-area: 1 / 2;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-inline: 100px;
+    padding-block: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Hides all but the #hire-me button when the screen width is smaller (mobile) */
+@media (width < 48.5rem) {
+    .nav-links li:not(:last-child) {
+        display: none;
+    }
+}

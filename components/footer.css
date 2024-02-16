@@ -1,0 +1,20 @@
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-social {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.footer-name {
+    margin-bottom: 0px;
+}
+
+.footer-rights {
+    margin-top: 0px;
+}

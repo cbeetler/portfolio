@@ -1,0 +1,6 @@
+.container {
+    max-width: 960px;
+    padding-inline: 20px;
+    /* text-align: center; */
+    margin-inline: auto;
+}

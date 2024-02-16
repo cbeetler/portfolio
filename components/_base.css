@@ -1,0 +1,79 @@
+:root {
+    --primary: #f2d544;
+    --dark-blue: #130c24;
+    --black: #232020;
+    --gray: #999999;
+    --beige: #f5f5f1;
+
+    --text-color: white;
+    --light-icon: white;
+    --gray-dark: #666666;
+    --gray-light: #bdbdbd;
+    --dark-icon: var(--black);
+    --anchor-color: var(--primary);
+
+    --gap: 80px;
+}
+
+@media (width < 37.5rem) {
+    :root {
+        --gap: 30px;
+    }
+
+    html {
+        font-size: 70%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    /* margin-inline: 75px; */
+}
+
+html {
+    background-color: var(--dark-blue);
+    color: var(--text-color);
+}
+
+html.light-theme {
+    background-color: var(--beige);
+    
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: white;
+    --anchor-color: var(--black);
+}
+
+@media (prefers-reduced-motion: no-preference) { 
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+::selection {
+    background-color: var(--primary);
+    color: var(--black);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+@media (width >= 1550px) {
+    .dynamic-grid {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        /* grid-template-rows: 1fr 1fr; */
+    }
+
+    .content {
+        grid-area: 1 / 2;
+        margin-top: 80px;
+    }
+}
+
+input, textarea, button, select {
+    font: inherit;
+}

@@ -1,0 +1,33 @@
+.tags {
+    padding-left: 0px;
+}
+
+.tag {
+    --tag-color: var(--gray);
+
+    font-size: 1rem;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    border: 1px solid var(--tag-color);
+    padding: 12px 16px;
+    list-style-type: none;
+    margin: 8px 8px 8px 0;
+    outline: 1px solid transparent;
+    position: relative;
+}
+
+.tag::before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    inset: -3px;
+    border: 1px solid var(--tag-color);
+}
+
+.tag:hover {
+    --tag-color: var(--primary);
+    outline-color: var(--primary);
+    color: var(--primary);
+}

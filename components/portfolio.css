@@ -1,0 +1,26 @@
+.portfolio {
+    display: flex;
+    gap: var(--gap);
+}
+
+/* .container:not(first-child, last-child) {
+    margin-bottom: 75px;
+} */
+.portfolio:not(:last-child) {
+    margin-bottom: 75px;
+}
+.portfolio-screenshot {
+    border-radius: 50%;
+    width: clamp(175px, 20vw, 300px);
+    height: clamp(175px, 20vw, 300px);
+}
+
+.portfolio:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+@media (width < 37.5rem) {
+    .portfolio {
+        display: block;
+    }
+}
