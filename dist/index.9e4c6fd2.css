@@ -352,7 +352,7 @@ nav {
   cursor: pointer;
   position: absolute;
   bottom: 2.563rem;
-  left: calc(50vw - 24px);
+  left: calc(50% - 24px);
 }
 
 #scroll-down svg {
@@ -437,22 +437,22 @@ nav {
   color: var(--primary);
 }
 
-.hire-line {
+.contact-line {
   gap: 16px;
   margin-bottom: 40px;
   display: flex;
 }
 
-.hire-line p {
+.contact-line p {
   margin-top: 0;
   margin-bottom: 5px;
 }
 
-.hire-form form input, .hire-form form textarea {
+.contact-form form input, .contact-form form textarea {
   margin-bottom: 24px;
 }
 
-.hire-action {
+.contact-action {
   justify-content: flex-end;
   align-items: center;
   display: flex;

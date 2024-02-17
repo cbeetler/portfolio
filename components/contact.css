@@ -1,24 +1,24 @@
-.hire-line {
+.contact-line {
     display: flex;
     gap: 16px;
     margin-bottom: 40px;
     /* justify-content: flex-end; */
 }
 
-.hire-line p {
+.contact-line p {
     margin-top: 0;
     margin-bottom: 5px;
 }
 
-.hire-form form input {
+.contact-form form input {
     margin-bottom: 24px;
 }
 
-.hire-form form textarea {
+.contact-form form textarea {
     margin-bottom: 24px;
 }
 
-.hire-action {
+.contact-action {
     display: flex;
     justify-content: flex-end;
     align-items: center;

@@ -20,7 +20,7 @@ nav {
     padding-left: 0;
 }
 
-/* Hides all but the #hire-me button when the screen width is smaller (mobile) */
+/* Hides all but the #contact-me button when the screen width is smaller (mobile) */
 @media (width < 48.5rem) {
     .nav-links li:not(:last-child) {
         display: none;
