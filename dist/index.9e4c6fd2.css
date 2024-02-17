@@ -437,27 +437,6 @@ nav {
   color: var(--primary);
 }
 
-.contact-line {
-  gap: 16px;
-  margin-bottom: 40px;
-  display: flex;
-}
-
-.contact-line p {
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-
-.contact-form form input, .contact-form form textarea {
-  margin-bottom: 24px;
-}
-
-.contact-action {
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-}
-
 .side {
   justify-content: center;
   align-items: center;
@@ -477,6 +456,27 @@ nav {
 
 .footer-rights {
   margin-top: 0;
+}
+
+.contact-line {
+  gap: 16px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.contact-line p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.contact-form form input, .contact-form form textarea {
+  margin-bottom: 24px;
+}
+
+.contact-action {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
 }
 
 
