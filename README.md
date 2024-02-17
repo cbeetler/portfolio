@@ -19,3 +19,5 @@ as the bundler during refactoring purposes.
 
 This should get you there. If someone actually tries this out and it doesn't work let me know,
 I may have missed a step while working from memory.
+
+### **Easiest method us to use the Live Server VSCode extension.**
