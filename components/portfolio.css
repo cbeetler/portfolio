@@ -1,6 +1,7 @@
 .portfolio {
     display: flex;
     gap: var(--gap);
+    /* text-align: center; */
 }
 
 /* .container:not(first-child, last-child) {
@@ -17,6 +18,11 @@
 
 .portfolio:nth-child(odd) {
     flex-direction: row-reverse;
+}
+
+#portfolio-footer {
+    display: flex;
+    justify-content: center;
 }
 
 @media (width < 37.5rem) {
